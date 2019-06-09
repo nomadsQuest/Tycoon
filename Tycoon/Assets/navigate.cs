@@ -27,15 +27,11 @@ public class navigate : MonoBehaviour {
 
 	public bool repeatCheck;
 
+	private int wait;
+
+	private bool check;
 
 
-
-	//for easy nav 
-	/*
-	public GameObject scriptObject;
-	public scriptableTrigger trigger;
-*/
-	// Use this for initialization
 
 	void Awake ()
 	{
@@ -49,26 +45,20 @@ public class navigate : MonoBehaviour {
 
 
 
-		randomNumber = Random.Range (navPoints[0], navPoints.Count - 2);
+		randomNumber = Random.Range (navPoints[0], navPoints.Count - 1);
 		currentIndex = randomNumber;
 		wayPointParent = GameObject.Find ("Waypoints").GetComponent<waypoints> ();
 
-
-		//anim.SetBool ("isActive", false);
-
-		//scriptable objects
 
 
 	}
 	void Start () {
 		
-		visitAmount = Random.Range (0, 3);
-		//target = waypoints.points [randomize];
-		target = wayPointParent.points [randomNumber];
+		visitAmount = Random.Range (0, 2);
+		//target = wayPointParent.points [randomNumber];
 		agent = GetComponent<NavMeshAgent> ();
-		// anim = GetComponent<Animator> ();
-
 		money = GetComponent<currency> ();
+		GetNextWaypoint ();
 
 
 
@@ -87,14 +77,12 @@ public class navigate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		/**
-		if (agent.isStopped != false)
+		if (!agent.pathPending && agent.remainingDistance <= 0.2 && check != true)
 		{
-			Vector3 direction = (target.position - transform.position).normalized;
-			Quaternion  qDir= Quaternion.LookRotation(direction);
-			transform.rotation = Quaternion.Slerp(transform.rotation, qDir, Time.deltaTime * rotationSpeed);
+			check = true;
+			StartCoroutine (waitTime ());
+			wait = Random.Range (3, 5);
 		}
-		*/
 
 
 		if (visitAmount >= 4)
@@ -112,7 +100,7 @@ public class navigate : MonoBehaviour {
 		
 	void GetNextWaypoint ()
 	{
-		randomNumber = Random.Range (navPoints[0], navPoints.Count - 2);
+		randomNumber = Random.Range (navPoints[0], navPoints.Count - 1);
 
 		visitAmount += 1;
 
@@ -133,164 +121,18 @@ public class navigate : MonoBehaviour {
 			target = wayPointParent.points [randomNumber];
 			currentIndex = randomNumber;
 		}
+
+
 		//waypointIndex++;
 		//target = waypoints.points [waypointIndex];
 	}
 
-
-	//Waypoint Triggers
-	public void ObjectTriggerArcade()
-
+	IEnumerator waitTime ()
 	{
-		agent.isStopped = true;
-		gameObject.GetComponent<Renderer> ().material.color = Color.red;
-		if (isWaiting != true)
-		{
-			StartCoroutine (arcade ());
-		}
-	}
-
-	public void ObjectTriggerTable()
-
-	{
-		agent.isStopped = true;
-		gameObject.GetComponent<Renderer> ().material.color = Color.red;
-		//anim.SetBool ("isJumping", true);
-		if (isWaiting != true)
-		{
-			StartCoroutine (table ());
-		}
-	}
-
-	public void ObjectTriggerTree()
-
-	{
-		agent.isStopped = true;
-		gameObject.GetComponent<Renderer> ().material.color = Color.red;
-		//anim.SetBool ("isJumping", true);
-		if (isWaiting != true)
-		{
-			StartCoroutine (tree ());
-		}
-	}
-
-	public void ObjectTriggerChair()
-
-	{
-		agent.isStopped = true;
-		gameObject.GetComponent<Renderer> ().material.color = Color.red;
-		//anim.SetBool ("isJumping", true);
-		if (isWaiting != true)
-		{
-			StartCoroutine (chair ());
-		}
-	}
-
-	/*
-	public void ObjectTrigger(string _name)
-	{
-		agent.isStopped = true;
-		gameObject.GetComponent<Renderer> ().material.color = Color.red;
-
-		if (isWaiting != true)
-		{
-			StartCoroutine (_name ());
-		}
-	}
-*/
-	/*
-	public void ScriptableTrigger()
-
-	{
-		agent.isStopped = true;
-		//agent = null;
-		gameObject.GetComponent<Renderer> ().material.color = Color.red;
-		//anim.SetBool ("isJumping", true);
-		if (isWaiting != true)
-		{
-			StartCoroutine (script ());
-
-		}
-
-
-		IEnumerator script()
-	{
-		isWaiting = true;
-		print (objectName);
-		
-		yield return new WaitForSeconds (2);
-	
-		print ("arcadeFinished");
+		yield return new WaitForSeconds (wait);
 		GetNextWaypoint ();
-		agent.isStopped = false;
-		money.addMoney (10);
-		//yield return new WaitForSeconds (3);
-
-	}
-*/
-
-	IEnumerator arcade()
-	{
-		isWaiting = true;
-		print ("arcadeWaiting");
-		//anim.SetBool ("isAction", true);
-		yield return new WaitForSeconds (1);
-		//anim.SetBool ("isAction", false);
-		print ("arcadeFinished");
-		GetNextWaypoint ();
-		agent.isStopped = false;
-		money.addMoney (10);
-		//yield return new WaitForSeconds (2);
-
-	}
-
-	IEnumerator table()
-	{
-		isWaiting = true;
-		print ("tableWaiting");
-		//agent.enabled = false;
-		//anim.SetBool ("isAction", true);
-		yield return new WaitForSeconds (1);
-		//anim.SetBool ("isAction", false);
-	//	agent.enabled = true;
-		print ("tableFinished");
-		GetNextWaypoint ();
-		agent.isStopped = false;
-		money.addMoney (30);
-		//yield return new WaitForSeconds (2);
-
-	}
-
-	IEnumerator tree()
-	{
-		isWaiting = true;
-		print ("treeWaiting");
-		//anim.SetBool ("isAction", true);
-		yield return new WaitForSeconds (1);
-		//anim.SetBool ("isAction", false);
-		print ("treeFinished");
-		GetNextWaypoint ();
-		agent.isStopped = false;
-		money.addMoney (5);
-		//yield return new WaitForSeconds (3);
-
-	}
-
-	IEnumerator chair()
-	{
-		isWaiting = true;
-		print ("chairWaiting");
-		//anim.SetBool ("isAction", true);
-		yield return new WaitForSeconds (1);
-		//anim.SetBool ("isAction", false);
-		print ("chairFinished");
-		GetNextWaypoint ();
-		agent.isStopped = false;
-		money.addMoney (10);
-		//yield return new WaitForSeconds (3);
-
+		check = false;
 	}
 
 
-	
 }

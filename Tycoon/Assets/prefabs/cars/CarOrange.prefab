@@ -509,19 +509,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0e063bac81a4f4ca370334fae008ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parking: {fileID: 0}
   parkingParent: {fileID: 0}
   exit: {fileID: 0}
   randomParking: 0
   parkingTimeSeconds: 10
   lights: {fileID: 0}
   anim: {fileID: 0}
-  customer: {fileID: 1135404544264226, guid: 65f3d14f84a0f4a868acf083315f7eca, type: 2}
+  customer: {fileID: 1560524630851280, guid: 8b40d80068de94b668ebb987cdc03d8e, type: 2}
   customerLimit: 0
   customerSpawnPoint: {fileID: 4201137612003332, guid: 239b39b56f302487e8c37d2a58a149c6,
     type: 2}
+  parking: {fileID: 0}
+  rand: 0
+  order: 0
   carCheck: 0
-  randomnumber: 0
 --- !u!195 &195821495114713802
 NavMeshAgent:
   m_ObjectHideFlags: 1

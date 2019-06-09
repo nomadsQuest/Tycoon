@@ -131,7 +131,7 @@ public class carprefab : MonoBehaviour {
 		carCheck = true;
 		anim.SetBool ("isParked", true);
 		lights.gameObject.SetActive (false);
-		//SpawnPerson ();
+		SpawnPerson ();
 		yield return new WaitForSeconds (parkingTimeSeconds);
 		lights.gameObject.SetActive (true);
 		agent.destination = exit.position;
@@ -143,7 +143,7 @@ public class carprefab : MonoBehaviour {
 	}
 
 
-	/*
+
 	void SpawnPerson ()
 	{
 		if (customerLimit != true)
@@ -155,7 +155,7 @@ public class carprefab : MonoBehaviour {
 		}
 	}
 
-*/
+
 
 
 }
