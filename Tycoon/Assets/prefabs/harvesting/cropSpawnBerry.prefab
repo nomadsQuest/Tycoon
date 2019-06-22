@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1392041652650500}
+  m_IsPrefabParent: 1
+--- !u!1 &1392041652650500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4396783143795590}
+  - component: {fileID: 33702650109424534}
+  - component: {fileID: 65443978369248772}
+  - component: {fileID: 23266272446543706}
+  - component: {fileID: 114579759067909944}
+  m_Layer: 0
+  m_Name: cropSpawnBerry
+  m_TagString: dirt
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4396783143795590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392041652650500}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.319, y: 7.676, z: 7.1909}
+  m_LocalScale: {x: 1.1442839, y: 0.0006198422, z: 1.0082307}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23266272446543706
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392041652650500}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 21b04b527c5fa45ddb54962658878374, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33702650109424534
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392041652650500}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65443978369248772
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392041652650500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0333612, y: 2.3280213, z: 1.0143707}
+  m_Center: {x: 0.0056332527, y: 0.66401064, z: -0.009662884}
+--- !u!114 &114579759067909944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392041652650500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df60c05d1026b4f21a7da826fb445617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterObj: {fileID: 0}
+  growTime: 0
+  seedPrefab: {fileID: 1126089474217412, guid: e43758c6fd4fc48dca85509b468aba9f, type: 2}
+  seed: {fileID: 0}
+  normalGround: {fileID: 2100000, guid: 11644ae2dd1fa4fb2aafd5ceca682b67, type: 2}
+  fertilizedGround: {fileID: 2100000, guid: 40a7ca7ddd7ee4e638ab461b6e8cb926, type: 2}
+  wateredGround: {fileID: 2100000, guid: 68947972288e7ea49a9ec21089e61a8a, type: 2}
+  rend: {fileID: 0}
+  harvestParticle: {fileID: 1070731853798924, guid: 584bb26745d3b4d9785e4764f783f233,
+    type: 2}
+  growthStages:
+  - {fileID: 1167773713028198, guid: 561eade93f02647a9bbc271232353dfb, type: 2}
+  - {fileID: 1731196298203568, guid: 39a429c8a38bf4f6fbe4f5a613f58ef8, type: 2}
+  - {fileID: 1926066749209968, guid: 6206b0fe2e9e146a68e527d780a511ac, type: 2}
+  weed1: {fileID: 0}
+  weed2: {fileID: 0}
+  weed3: {fileID: 0}
+  cropReady: 0
+  isFertile: 0
+  spawnerName: 

@@ -6,6 +6,9 @@ public class daynightcycle : MonoBehaviour {
 
 	public float dayDuration = 1f;
 	public bool isNight = false;
+	public bool hotSun = false;
+
+
 
 
 	// Use this for initialization
@@ -21,19 +24,43 @@ public class daynightcycle : MonoBehaviour {
 		transform.LookAt (Vector3.zero);
 
 	
+	
+	}
+
+
+	void OnTriggerExit (Collider other)
+	{
+
+		if (other.gameObject.name == "hotSun" )
+		{
+			hotSun = true;
+		}
+
+		if (other.gameObject.name == "normalSun" )
+		{
+			hotSun = false;
+		}
+
+
+		if (other.gameObject.name == "day" || other.gameObject.name == "night")
+		{
+		isNight = !isNight;
+		print ("Collided!");
+		}
+
 	}
 
 	void FixedUpdate()
 	{
 
-
-	if (transform.rotation.x < 1f)
+		/*
+	if (transform.rotation.x < 10f)
 	{
 		isNight = true;
-		} else{
-			isNight = false;
-		}
-			
+	} 
+*/
+
+	
 
 	//if (transform.rotation.x >= 0f)
 	//{
@@ -44,4 +71,7 @@ public class daynightcycle : MonoBehaviour {
 
 
 	}
+
+
+
 }
