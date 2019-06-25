@@ -6,7 +6,7 @@ public class solarPanel : MonoBehaviour {
 
 
 	public daynightcycle cycle;
-
+	public solarStorage energy;
 
 	public float solarGeneration = 0.5f;
 
@@ -15,7 +15,7 @@ public class solarPanel : MonoBehaviour {
 	{
 		cycle = GameObject.Find ("sun").GetComponent<daynightcycle> ();
 	
-
+		energy = GameObject.Find ("energyStorage").GetComponent<solarStorage> ();
 
 
 
@@ -37,12 +37,12 @@ public class solarPanel : MonoBehaviour {
 
 	void EnergyOn ()
 	{
-
+		energy.Watts += 2f;
 	}
 
 	void EnergyOff ()
 	{
-		 += 0;
+		
 	}
 
 

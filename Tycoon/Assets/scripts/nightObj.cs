@@ -5,14 +5,14 @@ using UnityEngine;
 public class nightObj : MonoBehaviour {
 
 	public daynightcycle cycle;
-	public solarPanel panel;
+	public solarStorage storage;
 	public Light light;
 
 
 	// Use this for initialization
 	void Start () 
 	{
-		panel = GameObject.Find ("solarEnergy").GetComponent<solarEnergy> ();
+		storage = GameObject.Find ("energyStorage").GetComponent<solarStorage> ();
 		cycle = GameObject.Find ("sun").GetComponent<daynightcycle> ();
 
 		if (light == null)
@@ -35,9 +35,10 @@ public class nightObj : MonoBehaviour {
 
 	void lightOn ()
 	{
-		if (panel.watts > 0) {
+		if (storage.Watts > 0f) 
+		{
 			light.enabled = true;
-			panel.watts = panel.watts - 0.45f;
+			storage.Watts -= 1f;
 		} else
 			light.enabled = false;
 			
