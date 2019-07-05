@@ -38,7 +38,7 @@ public class nightObj : MonoBehaviour {
 		if (storage.Watts > 0f) 
 		{
 			light.enabled = true;
-			storage.Watts -= 1f;
+			storage.Watts -= 2f;
 		} else
 			light.enabled = false;
 			

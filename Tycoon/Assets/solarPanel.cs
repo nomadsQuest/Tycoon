@@ -37,7 +37,7 @@ public class solarPanel : MonoBehaviour {
 
 	void EnergyOn ()
 	{
-		energy.Watts += 2f;
+		energy.Watts += 1f;
 	}
 
 	void EnergyOff ()

@@ -37,12 +37,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1450316619237956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.372, y: 2.423, z: 1.947}
-  m_LocalScale: {x: 1.0628105, y: 0.0065311654, z: 1.1214619}
+  m_LocalPosition: {x: -1.372, y: 1.886, z: 1.947}
+  m_LocalScale: {x: 1.0628102, y: 0.00653, z: 1.1214602}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.177, z: 0}
 --- !u!23 &23398874654416664
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -94,8 +94,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8762814, y: 2.3280213, z: 0.9170407}
-  m_Center: {x: 0.01287244, y: 0.6640105, z: 0.0032922656}
+  m_Size: {x: 0.8762814, y: 23.114933, z: 0.91704065}
+  m_Center: {x: 0.012872446, y: 11.057467, z: 0.003292271}
 --- !u!114 &114271062079512858
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -107,13 +107,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df60c05d1026b4f21a7da826fb445617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterObj: {fileID: 0}
-  growTime: 0
+  plantManager: {fileID: 0}
+  inventory: {fileID: 0}
+  waterTime: 10
   seedPrefab: {fileID: 1008555684171802, guid: cac08273bbd3c413ba5b802f7e166295, type: 2}
   seed: {fileID: 0}
   normalGround: {fileID: 2100000, guid: 11644ae2dd1fa4fb2aafd5ceca682b67, type: 2}
   fertilizedGround: {fileID: 2100000, guid: 40a7ca7ddd7ee4e638ab461b6e8cb926, type: 2}
   wateredGround: {fileID: 2100000, guid: 68947972288e7ea49a9ec21089e61a8a, type: 2}
+  hoverColor: {r: 0, g: 0, b: 0, a: 0}
   rend: {fileID: 0}
   harvestParticle: {fileID: 1070731853798924, guid: 584bb26745d3b4d9785e4764f783f233,
     type: 2}
@@ -127,3 +129,5 @@ MonoBehaviour:
   cropReady: 0
   isFertile: 0
   spawnerName: 
+  cam: {fileID: 0}
+  cropType: 2

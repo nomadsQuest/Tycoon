@@ -11,6 +11,7 @@ public class playermovement : MonoBehaviour {
 	void Update () 
 	{
 		playerMovement ();
+
 	}
 
 	void playerMovement ()
