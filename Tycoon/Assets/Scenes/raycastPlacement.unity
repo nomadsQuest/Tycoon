@@ -141,6 +141,52 @@ Transform:
   m_Father: {fileID: 1488594902}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &14149141
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.45817
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6816945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &54006984
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +369,10 @@ Transform:
   m_Father: {fileID: 1157057912}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &118701753 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 2045648678}
 --- !u!1 &122873041
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +431,60 @@ Transform:
   m_Father: {fileID: 2109208865}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &150936956 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 1632390234}
+--- !u!4 &154629499 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 1361282450}
+--- !u!1001 &161794607
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5760307
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.7630825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &166224046
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +513,46 @@ Transform:
   - {fileID: 471557359}
   m_Father: {fileID: 1413823238}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &176777693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 176777694}
+  m_Layer: 0
+  m_Name: fence (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &176777694
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 176777693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.5, y: 13.472746, z: -1.4716945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1487518627}
+  - {fileID: 118701753}
+  - {fileID: 1354133971}
+  - {fileID: 150936956}
+  - {fileID: 696457081}
+  - {fileID: 1539639928}
+  - {fileID: 246914407}
+  - {fileID: 1391848518}
+  - {fileID: 1472211695}
+  - {fileID: 1387737304}
+  - {fileID: 937418663}
+  - {fileID: 249011626}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &194059862
 GameObject:
@@ -441,6 +585,64 @@ Transform:
   m_Father: {fileID: 1856113856}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &195740152
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.63163185
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6116946
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71813077
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.69590825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 91.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &207794557
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +672,114 @@ Transform:
   m_Father: {fileID: 194059863}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &214945116
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7160301
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.7585444
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.69835275
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71575373
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.590004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &246914407 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 1694887006}
+--- !u!4 &249011626 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 712575882}
+--- !u!1001 &250852017
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.960716
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.7585444
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.69835275
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71575373
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.590004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &265323475
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,6 +809,56 @@ Transform:
   m_Father: {fileID: 1180661127}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &278040285
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.78134346
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.831694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68265206
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7307436
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 86.102005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &303762225
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,14 +920,14 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 303762225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.96, y: 5.804617, z: 7.191902}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.9386, y: 5.64, z: 6.94}
+  m_LocalScale: {x: 0.7494207, y: 0.7494207, z: 0.7494207}
   m_Children:
   - {fileID: 1413823238}
   - {fileID: 649922440}
   - {fileID: 88462487}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &337475227
 GameObject:
@@ -627,47 +987,63 @@ Transform:
   m_Father: {fileID: 337475228}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &366832205
+--- !u!1001 &381472964
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 176777694}
     m_Modifications:
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.74529
+      value: 9.876317
       objectReference: {fileID: 0}
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.804617
+      value: -7.638384
       objectReference: {fileID: 0}
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.229766
+      value: 3.6116946
       objectReference: {fileID: 0}
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.71813077
       objectReference: {fileID: 0}
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.69590825
       objectReference: {fileID: 0}
-    - target: {fileID: 4120606290747148, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 91.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 821c34fe8f4fded42a9e6dadb2d6933a, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &394255574
 GameObject:
@@ -843,6 +1219,48 @@ Transform:
   m_Father: {fileID: 114018936}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &495886406
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.804617
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -6.123234e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 6.123234e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -3.7493994e-33
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &511737938
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,6 +1290,48 @@ Transform:
   m_Father: {fileID: 2109208865}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &584083304
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.45817
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.7630825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &589361287
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,8 +1383,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 649922439}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 4.3851027, y: 4.3851027, z: 4.3851027}
+  m_LocalPosition: {x: -7.4319, y: 0.51511, z: 0.17977}
+  m_LocalScale: {x: 3.0371761, y: 3.0371761, z: 3.0371761}
   m_Children: []
   m_Father: {fileID: 303762228}
   m_RootOrder: 1
@@ -1047,6 +1507,52 @@ Transform:
   m_Father: {fileID: 935017231}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &696457081 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 381472964}
+--- !u!1001 &712575882
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.45817
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.7630825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &728071730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1582,56 @@ Transform:
   m_Father: {fileID: 1423565307}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &736181041
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.02603
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.831694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68265206
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7307436
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 86.102005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &751032681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,6 +1663,64 @@ Transform:
   m_Father: {fileID: 471557359}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &751497381
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.63163185
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6116946
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71813077
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.69590825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 91.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &783040025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1834,102 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 811409276}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &824904244
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.02603
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.831694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68265206
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7307436
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 86.102005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1001 &832912855
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5760307
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.7630825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &876476353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,7 +2033,7 @@ Transform:
   m_Children:
   - {fileID: 811409277}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &935017230
 GameObject:
@@ -1354,6 +2064,56 @@ Transform:
   m_Father: {fileID: 1635359748}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &937418663 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 1758910615}
+--- !u!1001 &956126215
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5760307
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6816945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1001 &957941690
 Prefab:
   m_ObjectHideFlags: 0
@@ -1428,6 +2188,52 @@ Transform:
   m_Father: {fileID: 1638182520}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &994675136
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.85603
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6816945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1053307261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,6 +2263,52 @@ Transform:
   m_Father: {fileID: 783040026}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1066971477 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 751497381}
+--- !u!1001 &1078305671
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.363056
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.804617
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.876171
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 58f8f17c237104a4ab96510d93f2c23d, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1089538600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +2394,10 @@ Transform:
   m_Father: {fileID: 471557359}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1140689402 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 824904244}
 --- !u!1 &1157057911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,6 +2455,46 @@ Transform:
   m_Father: {fileID: 1376676194}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1179756785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1179756786}
+  m_Layer: 0
+  m_Name: fence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179756786
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1179756785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.29603, y: 13.472746, z: -1.4716945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1441019291}
+  - {fileID: 154629499}
+  - {fileID: 1140689402}
+  - {fileID: 1901910613}
+  - {fileID: 2128331467}
+  - {fileID: 1772516769}
+  - {fileID: 1199646733}
+  - {fileID: 1529413750}
+  - {fileID: 1865503718}
+  - {fileID: 1066971477}
+  - {fileID: 1262728109}
+  - {fileID: 1740033238}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180661126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,6 +2524,14 @@ Transform:
   m_Father: {fileID: 452770870}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1199646733 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 14149141}
+--- !u!4 &1262728109 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 214945116}
 --- !u!1 &1339787646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1657,6 +2561,56 @@ Transform:
   m_Father: {fileID: 54006985}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1354133971 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 736181041}
+--- !u!1001 &1361282450
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.85603
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.7630825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1376676193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,6 +2640,14 @@ Transform:
   m_Father: {fileID: 2109208865}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1387737304 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 195740152}
+--- !u!4 &1391848518 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 994675136}
 --- !u!1 &1394727468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,8 +2728,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 13.95
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1789,13 +2751,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1405129109}
-  m_LocalRotation: {x: 0.19565271, y: -0, z: -0, w: 0.98067325}
-  m_LocalPosition: {x: -12.84, y: 19.1, z: -21.4}
+  m_LocalRotation: {x: 0.1768181, y: 0.41981867, z: -0.08375737, w: 0.8862688}
+  m_LocalPosition: {x: -48.7, y: 26.3, z: -18.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 22.566002, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 22.566002, y: 50.693, z: 0}
 --- !u!1 &1411515557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,6 +2845,18 @@ Transform:
   m_Father: {fileID: 751032682}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1441019291 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 832912855}
+--- !u!4 &1472211695 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 1502542880}
+--- !u!4 &1487518627 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 161794607}
 --- !u!1 &1488594901
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,6 +2886,56 @@ Transform:
   m_Father: {fileID: 651711809}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1502542880
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.78134346
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.831694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68265206
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7307436
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 86.102005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1511213681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,6 +2964,56 @@ Transform:
   m_Father: {fileID: 511737939}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1529413750 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 1921015860}
+--- !u!4 &1539639928 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 956126215}
+--- !u!1001 &1549987928
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.785964
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.804617
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.4418516
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b14d8c302663b48c0ba38a0be6e1765a, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1557381782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,6 +3043,56 @@ Transform:
   m_Father: {fileID: 475225024}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1632390234
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.960716
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.7585444
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.69835275
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71575373
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.590004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1635359747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,6 +3208,52 @@ Transform:
   m_Father: {fileID: 728071731}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1694887006
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.45817
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6816945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1695521249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,7 +3317,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1697298527
 GameObject:
@@ -2204,6 +3374,60 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 441386, guid: ab5e0beb1c36778479983f28b65d97dd, type: 2}
   m_PrefabInternal: {fileID: 957941690}
+--- !u!4 &1740033238 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 584083304}
+--- !u!1001 &1758910615
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176777694}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7160301
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.7585444
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.69835275
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71575373
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.590004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1760856950
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +3457,10 @@ Transform:
   m_Father: {fileID: 207794558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1772516769 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 2070110578}
 --- !u!1 &1844402779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,6 +3548,60 @@ Transform:
   m_Father: {fileID: 1394727469}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1865503718 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 278040285}
+--- !u!4 &1901910613 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 250852017}
+--- !u!1001 &1921015860
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.85603
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6816945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1928075943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,54 +3679,104 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1928075943}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -11.917064, y: 5.592549, z: 2.1309128}
-  m_LocalScale: {x: 38.607647, y: 0.42413595, z: 23.876844}
+  m_LocalScale: {x: 44.280327, y: 0.42413595, z: 48.413803}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1948469318
+--- !u!1001 &2045648678
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 176777694}
     m_Modifications:
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.970078
+      value: 9.85603
       objectReference: {fileID: 0}
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.804617
+      value: -7.638384
       objectReference: {fileID: 0}
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.435268
+      value: 12.7630825
       objectReference: {fileID: 0}
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4434164744399788, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: db817f4c10fd36e44bfa64f8219e6692, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1001 &2070110578
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5760307
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6816945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &2109208864
 GameObject:
@@ -2479,3 +3811,65 @@ Transform:
   m_Father: {fileID: 1557381783}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2128331467 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_PrefabInternal: {fileID: 2130963621}
+--- !u!1001 &2130963621
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1179756786}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.876317
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.638384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6116946
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71813077
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.69590825
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_Name
+      value: enchantedforest_fence_wood_1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 91.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2eb7d917287dd473496e9ee8187d5b5b, type: 3}
+  m_IsPrefabParent: 0
