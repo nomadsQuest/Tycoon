@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33466285627933150}
   - component: {fileID: 65234927066876276}
   - component: {fileID: 23547860818235448}
-  - component: {fileID: 114315467026034874}
+  - component: {fileID: 114120585443171784}
   m_Layer: 0
   m_Name: cropSpawn
   m_TagString: dirt
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1345762972966228}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.91, y: 1.886, z: 0.51}
+  m_LocalPosition: {x: -18.37, y: 6.7, z: 12.065476}
   m_LocalScale: {x: 1.0628102, y: 0.00653, z: 1.1214602}
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 21b04b527c5fa45ddb54962658878374, type: 2}
+  - {fileID: 2100000, guid: 11644ae2dd1fa4fb2aafd5ceca682b67, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,7 +96,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8762814, y: 23.114933, z: 0.91704065}
   m_Center: {x: 0.012872446, y: 11.057467, z: 0.003292271}
---- !u!114 &114315467026034874
+--- !u!114 &114120585443171784
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -104,45 +104,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1345762972966228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df60c05d1026b4f21a7da826fb445617, type: 3}
+  m_Script: {fileID: 11500000, guid: 90de759cab937f447b00ea9b191904d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crop: {fileID: 0}
   plantManager: {fileID: 0}
   inventory: {fileID: 0}
   pInventory: {fileID: 0}
   minGrow: 5
   maxGrow: 10
   waterTime: 10
-  seedPrefab:
-  - {fileID: 1126089474217412, guid: e43758c6fd4fc48dca85509b468aba9f, type: 2}
-  - {fileID: 1008555684171802, guid: cac08273bbd3c413ba5b802f7e166295, type: 2}
-  - {fileID: 1704323545542074, guid: e7d26343f3760445ab5366b5fe4f481b, type: 2}
+  seedPrefab: []
   seed: {fileID: 0}
   normalGround: {fileID: 2100000, guid: 11644ae2dd1fa4fb2aafd5ceca682b67, type: 2}
   fertilizedGround: {fileID: 2100000, guid: 40a7ca7ddd7ee4e638ab461b6e8cb926, type: 2}
-  wateredGround: {fileID: 2100000, guid: 68947972288e7ea49a9ec21089e61a8a, type: 2}
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  rend: {fileID: 0}
-  harvestParticle: {fileID: 1070731853798924, guid: 584bb26745d3b4d9785e4764f783f233,
-    type: 2}
-  berryStages:
-  - {fileID: 1167773713028198, guid: 561eade93f02647a9bbc271232353dfb, type: 2}
-  - {fileID: 1731196298203568, guid: 39a429c8a38bf4f6fbe4f5a613f58ef8, type: 2}
-  - {fileID: 1926066749209968, guid: 6206b0fe2e9e146a68e527d780a511ac, type: 2}
-  carrotStages:
-  - {fileID: 1328155037077760, guid: 3b8fe65de12044d6c93106541e7b1170, type: 2}
-  - {fileID: 1981276664338306, guid: 0fb87b9883bb34510a7f8dafb2f695fe, type: 2}
-  - {fileID: 1277289218339000, guid: 61b200288870c4f47a6aecd90ebfc935, type: 2}
-  weedStages:
-  - {fileID: 1886315951602016, guid: 41767e572822444a791eb0de6579ceb8, type: 2}
-  - {fileID: 1789804022236926, guid: aa8ed36ad8144498799eac560117e1a3, type: 2}
-  - {fileID: 1024213181473402, guid: 4f4608608fc8249b180928fbca07149c, type: 2}
-  weed1: {fileID: 0}
-  weed2: {fileID: 0}
-  weed3: {fileID: 0}
+  wateredGround: {fileID: 2100000, guid: c7c9c39932e3146b5941ede01058e811, type: 2}
+  hoverColor: {r: 0, g: 0, b: 1, a: 1}
+  rend: {fileID: 23547860818235448}
+  harvestParticle: {fileID: 0}
+  stage1: {fileID: 0}
+  stage2: {fileID: 0}
+  stage3: {fileID: 0}
   cropReady: 0
   isFertile: 0
   cropActive: 0
-  spawnerName: 
+  spawnerName: cropSpawn (15)
   cam: {fileID: 0}
-  cropType: 2
+  cropType: 0
+  hasCrop: 0

@@ -14,7 +14,7 @@ public class EnvMapAnimator : MonoBehaviour {
     {
         //Debug.Log("Awake() on Script called.");
         m_textMeshPro = GetComponent<TMP_Text>();
-        m_material = m_textMeshPro.fontSharedMaterial;
+        m_material = m_textMeshPro.material;
     }
 
     // Use this for initialization

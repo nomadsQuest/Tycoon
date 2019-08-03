@@ -27,8 +27,8 @@ namespace TMPro.Examples
             //m_textMeshPro.font = m_FontAsset;
 
             // Assign Material to TextMesh Pro Component
-            //m_textMeshPro.fontSharedMaterial = Resources.Load("Fonts & Materials/LiberationSans SDF - Bevel", typeof(Material)) as Material;
-            //m_textMeshPro.fontSharedMaterial.EnableKeyword("BEVEL_ON");
+            //m_textMeshPro.material = Resources.Load("Fonts & Materials/LiberationSans SDF - Bevel", typeof(Material)) as Material;
+            //m_textMeshPro.material.EnableKeyword("BEVEL_ON");
             
             // Set various font settings.
             m_textMeshPro.fontSize = 48;

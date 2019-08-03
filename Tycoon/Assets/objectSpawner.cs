@@ -90,7 +90,7 @@ public class objectSpawner : MonoBehaviour {
 			{
 			plantManager.PlowingActive ();
 			spawnPlow ();
-			print ("spawningPlow");
+			//print ("spawningPlow");
 			plowActive = true;
 			
 			}
@@ -152,9 +152,9 @@ public class objectSpawner : MonoBehaviour {
 	 void destroyPlow () 
 	{
 		plowActive = false;
-		Destroy (plowInstance);
 		plantManager.isPlow = false;
 		plow.gameObject.transform.position = this.transform.position;
+		Destroy (plowInstance);
 		plow.gameObject.SetActive (true);
 	}
 

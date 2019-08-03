@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be120d7475195ae468584bc06ebf52eb, type: 3}
+  m_Name: Weed
+  m_EditorClassIdentifier: 
+  seed: {fileID: 1704323545542074, guid: e7d26343f3760445ab5366b5fe4f481b, type: 2}
+  growth:
+  - {fileID: 1886315951602016, guid: 41767e572822444a791eb0de6579ceb8, type: 2}
+  - {fileID: 1789804022236926, guid: aa8ed36ad8144498799eac560117e1a3, type: 2}
+  - {fileID: 1024213181473402, guid: 4f4608608fc8249b180928fbca07149c, type: 2}

@@ -34,7 +34,7 @@ public class build : MonoBehaviour {
 		itemShop = GameObject.Find ("shop").GetComponent<shop> ();
 
 
-		//startColor = rend.material.color;
+		//startColor = rend.sharedmaterial.color;
 		rend = GetComponent<Renderer>();
 
 		buildmanager = BuildManager.instance;

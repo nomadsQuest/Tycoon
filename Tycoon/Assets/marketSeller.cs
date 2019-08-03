@@ -14,7 +14,7 @@ public class marketSeller: MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		 
+		cam = Camera.main;
 		shop = GameObject.Find("Market").GetComponent<Canvas> ();
 	}
 

@@ -32,14 +32,14 @@ public class farmingRaycast : MonoBehaviour {
 		{	
 		if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
 		{
-			print (hit.collider.name);
+			//print (hit.collider.name);
 
 			crop = hit.collider.gameObject.GetComponent<spawnCrop>();
 
 			if (crop != false)
 			{
 				crop.planting();
-				print ("isWorking");
+				//print ("isWorking");
 			}
 			
 				if (hit.collider.name == "berrySeeds" && isCalled != true && inventory.money >= 3)

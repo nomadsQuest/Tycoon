@@ -44,15 +44,15 @@ namespace TMPro.Examples
                     m_textMeshPro.font = TMProFont;
 
                 //m_textMeshPro.font = Resources.Load("Fonts & Materials/Anton SDF", typeof(TextMeshProFont)) as TextMeshProFont; // Make sure the Anton SDF exists before calling this...
-                //m_textMeshPro.fontSharedMaterial = Resources.Load("Fonts & Materials/Anton SDF", typeof(Material)) as Material; // Same as above make sure this material exists.
+                //m_textMeshPro.material = Resources.Load("Fonts & Materials/Anton SDF", typeof(Material)) as Material; // Same as above make sure this material exists.
 
                 m_textMeshPro.fontSize = 48;
                 m_textMeshPro.alignment = TextAlignmentOptions.Center;
                 //m_textMeshPro.anchor = AnchorPositions.Center;
                 m_textMeshPro.extraPadding = true;
                 //m_textMeshPro.outlineWidth = 0.25f;
-                //m_textMeshPro.fontSharedMaterial.SetFloat("_OutlineWidth", 0.2f);
-                //m_textMeshPro.fontSharedMaterial.EnableKeyword("UNDERLAY_ON");
+                //m_textMeshPro.material.SetFloat("_OutlineWidth", 0.2f);
+                //m_textMeshPro.material.EnableKeyword("UNDERLAY_ON");
                 //m_textMeshPro.lineJustification = LineJustificationTypes.Center;
                 m_textMeshPro.enableWordWrapping = false;    
                 //m_textMeshPro.lineLength = 60;          
@@ -93,7 +93,7 @@ namespace TMPro.Examples
                 {
                     m_textMeshPro.SetText(label01, i % 1000);
                     if (i % 1000 == 999)
-                        m_textMeshPro.fontSharedMaterial = m_textMeshPro.fontSharedMaterial == m_material01 ? m_textMeshPro.fontSharedMaterial = m_material02 : m_textMeshPro.fontSharedMaterial = m_material01;
+                        m_textMeshPro.material = m_textMeshPro.material == m_material01 ? m_textMeshPro.material = m_material02 : m_textMeshPro.material = m_material01;
 
 
 

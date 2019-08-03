@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be120d7475195ae468584bc06ebf52eb, type: 3}
+  m_Name: blueBerry
+  m_EditorClassIdentifier: 
+  seed: {fileID: 1126089474217412, guid: e43758c6fd4fc48dca85509b468aba9f, type: 2}
+  growth:
+  - {fileID: 1167773713028198, guid: 561eade93f02647a9bbc271232353dfb, type: 2}
+  - {fileID: 1731196298203568, guid: 39a429c8a38bf4f6fbe4f5a613f58ef8, type: 2}
+  - {fileID: 1926066749209968, guid: 6206b0fe2e9e146a68e527d780a511ac, type: 2}
